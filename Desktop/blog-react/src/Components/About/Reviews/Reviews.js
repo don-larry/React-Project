@@ -127,7 +127,7 @@ function Reviews (props) {
         items: props.items,
         activeIndex: 0,
         autoplay: true, 
-        // scrollbehavior: smooth
+        
     });
     
     const moveTo = useCallback((newIndex) => {
